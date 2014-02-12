@@ -33,7 +33,7 @@ branches:
     realms:
       - realm: 'totem-development'
         proxy:
-         - host: 'spec-python-$1.thu.melt.sh'
+         - host: 'spec-python-$1.th.melt.sh'
            paths:
            - path: '/'
              port: 8080
