@@ -29,13 +29,4 @@ branches:
            - path: '/'
              port: 8080
         comptroller: {}
-  - match: 'feature_(.*)'
-    realms:
-      - realm: 'totem-development'
-        proxy:
-         - host: 'spec-python-$1.th.melt.sh'
-           paths:
-           - path: '/'
-             port: 8080
-        comptroller: {}
 
