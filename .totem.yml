@@ -10,17 +10,7 @@ branches:
            - path: '/'
              port: 8080
         comptroller: {}
-  - match: totem-develop
-    realms:
-      - realm: 'totem-development'
-        proxy:
-         - host: 'spec-python-totem-develop.th.melt.sh'
-           paths:
-           - path: '/'
-             port: 8080
-        comptroller: {}
-
-  - match: totem-develop
+  - matches: totem-develop
     realms:
       - realm: 'totem-development'
         proxy:
